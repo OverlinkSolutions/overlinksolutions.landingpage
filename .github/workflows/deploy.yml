@@ -1,3 +1,4 @@
+---
 name: Deploy
 
 on:
@@ -13,5 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Move build to /var/www/overlinksolutions
+        run: |
+          rm -rf /var/www/overlinksolutions/*
+          mv build/* /var/www/overlinksolutions/
+...
