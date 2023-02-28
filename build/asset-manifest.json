@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc136ce7.css",
+    "main.js": "/static/js/main.10698baf.js",
+    "static/media/coworking.jpg": "/static/media/coworking.c3894aeb05a8a54fccf0.jpg",
+    "index.html": "/index.html",
+    "main.cc136ce7.css.map": "/static/css/main.cc136ce7.css.map",
+    "main.10698baf.js.map": "/static/js/main.10698baf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc136ce7.css",
+    "static/js/main.10698baf.js"
+  ]
+}
