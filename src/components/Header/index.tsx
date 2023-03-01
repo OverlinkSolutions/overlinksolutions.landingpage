@@ -1,12 +1,13 @@
 import { Button } from "antd";
 import * as React from "react";
+import logo from '../../images/logo.png';
 import header from "./header.module.sass";
 
 export default function Header() {
   return (
     <header id={header.container} className="container row">
-      <div className="container">
-        <img src="https://picsum.photos/180/50" alt="Logo" />
+      <div id={header.logo_container} className="container">
+        <img src={logo} alt="Logo" />
       </div>
       <nav id={header.btn_row} className="container row">
         <Button type="text">Quem somos</Button>

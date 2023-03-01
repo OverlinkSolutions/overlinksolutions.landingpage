@@ -18,3 +18,13 @@ body
   &.column
     flex-direction: column
     flex-wrap: nowrap
+  &.autowrap
+    flex-direction: row
+    flex-wrap: wrap
+
+@media screen and (max-width: 768px)
+  .container
+    &.autowrap
+      flex-direction: column
+      flex-wrap: nowrap 
+

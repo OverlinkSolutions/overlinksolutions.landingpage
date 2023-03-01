@@ -5,7 +5,7 @@ import about_us from "./about_us.module.sass";
 export default function AboutUs() {
   return (
     <>
-    <section id={about_us.container} className="container row">
+    <section id={about_us.container} className="container autowrap">
       <Typography
         title="Alcance um novo público"
         description="Seu cliente, assim como você, está atento a novidades, e é importante que seu negócio esteja pronto para isso."
