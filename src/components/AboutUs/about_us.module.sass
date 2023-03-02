@@ -1,11 +1,11 @@
 #container
     gap: 20px
-    padding: 5% 0
     flex-wrap: nowrap
-
+    width: 100%
+    
 #item
     #overlink
-        width: 100%
+        width: 50%
         opacity: 100%
     img
         width: 180px
@@ -14,3 +14,13 @@
 
 #typography
     position:absolute
+
+@media only screen and (min-width: 767px) 
+    #container_features
+        align-items: start
+        #container
+            width: 70%
+            flex-wrap: wrap
+            #item
+                width: 40%
+                height: 100%

@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0699149.css",
-    "main.js": "/static/js/main.c3bab7be.js",
+    "main.css": "/static/css/main.e147344f.css",
+    "main.js": "/static/js/main.30730253.js",
     "static/media/icon_quemSomos.png": "/static/media/icon_quemSomos.1f53edcac2dd8ca411a5.png",
     "static/media/icon_formaDeConexao.png": "/static/media/icon_formaDeConexao.a8b30c2626dbc8b97ec2.png",
     "static/media/work_liuEcoTyre.png": "/static/media/work_liuEcoTyre.f5b21d36741292ba450d.png",
     "static/media/work_fazendaModelo.png": "/static/media/work_fazendaModelo.69da1631d2f6c3b03666.png",
     "static/media/icon_visibilidade.png": "/static/media/icon_visibilidade.abe1623c04006538d524.png",
+    "static/media/icon_fundo.png": "/static/media/icon_fundo.4b2f73b967e24b12f86b.png",
+    "static/media/icon_publico.png": "/static/media/icon_publico.95e3ca110b5896fb0836.png",
     "static/media/icon_quebreBarreiras.png": "/static/media/icon_quebreBarreiras.e7d48b23164f1b2719e2.png",
     "static/media/logo3.png": "/static/media/logo3.f7e90e22a71698723352.png",
     "index.html": "/index.html",
-    "main.e0699149.css.map": "/static/css/main.e0699149.css.map",
-    "main.c3bab7be.js.map": "/static/js/main.c3bab7be.js.map"
+    "main.e147344f.css.map": "/static/css/main.e147344f.css.map",
+    "main.30730253.js.map": "/static/js/main.30730253.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0699149.css",
-    "static/js/main.c3bab7be.js"
+    "static/css/main.e147344f.css",
+    "static/js/main.30730253.js"
   ]
 }
