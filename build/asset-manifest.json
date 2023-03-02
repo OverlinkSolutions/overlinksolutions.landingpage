@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1e613ce.css",
-    "main.js": "/static/js/main.50f56862.js",
-    "static/media/coworking.jpg": "/static/media/coworking.c3894aeb05a8a54fccf0.jpg",
+    "main.css": "/static/css/main.e0699149.css",
+    "main.js": "/static/js/main.c3bab7be.js",
     "static/media/icon_quemSomos.png": "/static/media/icon_quemSomos.1f53edcac2dd8ca411a5.png",
     "static/media/icon_formaDeConexao.png": "/static/media/icon_formaDeConexao.a8b30c2626dbc8b97ec2.png",
     "static/media/work_liuEcoTyre.png": "/static/media/work_liuEcoTyre.f5b21d36741292ba450d.png",
@@ -11,11 +10,11 @@
     "static/media/icon_quebreBarreiras.png": "/static/media/icon_quebreBarreiras.e7d48b23164f1b2719e2.png",
     "static/media/logo3.png": "/static/media/logo3.f7e90e22a71698723352.png",
     "index.html": "/index.html",
-    "main.d1e613ce.css.map": "/static/css/main.d1e613ce.css.map",
-    "main.50f56862.js.map": "/static/js/main.50f56862.js.map"
+    "main.e0699149.css.map": "/static/css/main.e0699149.css.map",
+    "main.c3bab7be.js.map": "/static/js/main.c3bab7be.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1e613ce.css",
-    "static/js/main.50f56862.js"
+    "static/css/main.e0699149.css",
+    "static/js/main.c3bab7be.js"
   ]
 }
