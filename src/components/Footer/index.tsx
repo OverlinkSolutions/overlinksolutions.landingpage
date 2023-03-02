@@ -1,6 +1,6 @@
 import * as React from "react";
 import footer from "./footer.module.sass";
-import logo from '../../images/logo.png';
+import logo from '../../images/logo3.png';
 
 export default function Footer() {
   return (

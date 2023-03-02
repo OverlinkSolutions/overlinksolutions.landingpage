@@ -1,6 +1,6 @@
 import { Button } from "antd";
 import * as React from "react";
-import logo from '../../images/logo.png';
+import logo from '../../images/logo3.png';
 import header from "./header.module.sass";
 
 export default function Header() {

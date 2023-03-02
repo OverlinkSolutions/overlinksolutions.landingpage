@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.acc8122e.css",
-    "main.js": "/static/js/main.6dc1b967.js",
+    "main.css": "/static/css/main.d1e613ce.css",
+    "main.js": "/static/js/main.50f56862.js",
     "static/media/coworking.jpg": "/static/media/coworking.c3894aeb05a8a54fccf0.jpg",
-    "static/media/logo.png": "/static/media/logo.9a86ea5a83db3dd53e3f.png",
+    "static/media/icon_quemSomos.png": "/static/media/icon_quemSomos.1f53edcac2dd8ca411a5.png",
+    "static/media/icon_formaDeConexao.png": "/static/media/icon_formaDeConexao.a8b30c2626dbc8b97ec2.png",
+    "static/media/work_liuEcoTyre.png": "/static/media/work_liuEcoTyre.f5b21d36741292ba450d.png",
+    "static/media/work_fazendaModelo.png": "/static/media/work_fazendaModelo.69da1631d2f6c3b03666.png",
+    "static/media/icon_visibilidade.png": "/static/media/icon_visibilidade.abe1623c04006538d524.png",
+    "static/media/icon_quebreBarreiras.png": "/static/media/icon_quebreBarreiras.e7d48b23164f1b2719e2.png",
+    "static/media/logo3.png": "/static/media/logo3.f7e90e22a71698723352.png",
     "index.html": "/index.html",
-    "main.acc8122e.css.map": "/static/css/main.acc8122e.css.map",
-    "main.6dc1b967.js.map": "/static/js/main.6dc1b967.js.map"
+    "main.d1e613ce.css.map": "/static/css/main.d1e613ce.css.map",
+    "main.50f56862.js.map": "/static/js/main.50f56862.js.map"
   },
   "entrypoints": [
-    "static/css/main.acc8122e.css",
-    "static/js/main.6dc1b967.js"
+    "static/css/main.d1e613ce.css",
+    "static/js/main.50f56862.js"
   ]
 }

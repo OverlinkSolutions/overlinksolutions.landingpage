@@ -1,6 +1,8 @@
 import * as React from "react";
 import Typography from "../Typography";
 import our_work from "./our_work.module.sass";
+import work_fazendaModelo from "../../images/work_fazendaModelo.png";
+import work_liuEcoTyre from "../../images/work_liuEcoTyre.png";
 
 export default function OurWork() {
   return (
@@ -8,17 +10,19 @@ export default function OurWork() {
       <section id={our_work.container} className="container column">
         <h1 id={our_work.title}>Nossos Trabalhos</h1>
         <div id={our_work.works_container} className="container column">
-          <div id={our_work.work_item}>
+          <div id={our_work.work_item} className={"container column"}>
+            <img src={work_fazendaModelo} alt="Alcance um novo público" />
             <Typography
               title="Fazenda Modelo"
               description="A Fazenda Modelo é uma reserva com várias áreas de lazer, como piscina, sauna e churrasqueira e com opções de quartos. Um ambiente perfeito para uma viagem de férias em família."
             />
           </div>
-          <div id={our_work.work_item}>
+          <div id={our_work.work_item} className={"container column"}>
             <Typography
               title="Liu Eco Tyre"
-              description="Procurando um pneu de qualidade e com um preço justo? A Liu Eco Tyre é a melhor opção para você. Com uma variedade de modelos e tamanhos, a Liu Eco Tyre é a melhor opção para você."
+              description="A Liu Eco Tyre é uma empresa de pneus remolds, feitos com materiais de alta qualidade e durabilidade, carcaças selecionadas através de uma inspeção rigorosa, e são submetidos a uma série de testes para recebem a aprovação e o selo do INMETRO."
             />
+            <img src={work_liuEcoTyre} alt="Alcance um novo público" />
           </div>
         </div>
       </section>
