@@ -49,6 +49,7 @@ export default function Header() {
           </Button>
         </nav>
       )}
+      <div id={header.animated_border}>&nbsp;</div>
     </header>
   );
 }

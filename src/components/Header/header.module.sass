@@ -21,3 +21,22 @@
     align-items: center
     justify-content: space-between
     gap: 10px
+
+#animated_border
+    animation: gradient .6s ease infinite alternate
+    background: linear-gradient(-45deg,#0625d8,#2bc6e8)
+    background-size: auto
+    background-size: 300% 300%
+    bottom: 0
+    height: 3px
+    position: absolute
+    width: 100%
+
+
+@keyframes gradient 
+  0% 
+    background-position: 0% 100%
+  
+  100% 
+    background-position: 100% 0%
+  
