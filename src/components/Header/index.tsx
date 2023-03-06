@@ -1,7 +1,7 @@
 import { Button } from "antd";
 import * as React from "react";
 import { useMediaQuery } from "react-responsive";
-import logo from "../../images/logo3.png";
+import logo from "../../images/logo3.webp";
 import header from "./header.module.sass";
 
 export default function Header() {
@@ -26,7 +26,7 @@ export default function Header() {
       setIsClickTriggeredByEffect(false);
       return;
     }
-
+    // window.open("https://wa.me/5511988888888", "_blank")
   };
 
   return (
@@ -44,7 +44,7 @@ export default function Header() {
         <nav id={header.btn_row} className="container row">
           <Button type="text">Quem somos</Button>
           <Button type="text">Nosso trabalho</Button>
-          <Button type="primary" ref={buttonRef}>
+          <Button type="primary" onClick={handleClick} ref={buttonRef}>
             Contato
           </Button>
         </nav>

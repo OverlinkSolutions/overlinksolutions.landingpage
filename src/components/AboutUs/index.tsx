@@ -15,6 +15,7 @@ export default function AboutUs() {
           <div id={about_us.item} className={"container column"}>
             <img src={img_novoPublico} alt="Alcance um novo público" />
             <Typography
+              alignment="center"
               title="Alcance um novo público"
               description="Seu cliente, assim como você, está atento a novidades, e é importante que seu negócio esteja pronto para isso."
             />
@@ -22,14 +23,15 @@ export default function AboutUs() {
           <div id={about_us.item} className={"container column"}>
             <img src={img_quebreBarreiras} alt="Alcance um novo público" />
             <Typography
+              alignment="center"
               title="Quebre barreiras"
               description="Através de um site, você pode alcançar clientes de todo o mundo, sem precisar sair de casa."
             />
           </div>
-
           <div id={about_us.item} className={"container column"}>
             <img src={img_aumenteVisibilidade} alt="Alcance um novo público" />
             <Typography
+              alignment="center"
               title="Aumente suas visibilidade"
               description="Seu cliente pode conhecer seus produtos ou serviços de qualquer lugar, além de servir de cartão de visita para seu negócio."
             />
@@ -44,6 +46,7 @@ export default function AboutUs() {
             alt="Alcance um novo público"
           />
           <Typography
+            alignment="left"
             title="Quem somos"
             description="A Overlink Solutions é uma empresa de desenvolvimento de websites modernos, com o objetivo de criar um novo ambiente para seu comércio, alcançando novos clientes, sem barreiras."
           />
