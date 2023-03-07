@@ -7,7 +7,11 @@ import img_quemSomos from "../../images/icon_quemSomos.png";
 
 import about_us from "./about_us.module.sass";
 
-export default function AboutUs() {
+type AboutUsProps = {
+  refs: React.RefObject<HTMLDivElement>;
+}
+
+export default function AboutUs(props: AboutUsProps) {
   return (
     <>
       <section id={about_us.container_features} className="container column">
@@ -38,7 +42,7 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <section id={about_us.container} className="container row">
+      <section id={about_us.container} ref={props.refs} className="container row">
         <div id={about_us.item} className={"container autowrap"}>
           <img
             id={about_us.overlink}

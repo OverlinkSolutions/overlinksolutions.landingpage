@@ -3,11 +3,18 @@ import Typography from "../Typography";
 import our_work from "./our_work.module.sass";
 import work_fazendaModelo from "../../images/work_fazendaModelo.png";
 import work_liuEcoTyre from "../../images/work_liuEcoTyre.png";
+import { useRef } from "react";
 
-export default function OurWork() {
+type OurWorkProps = {
+  refs: React.RefObject<HTMLDivElement>;
+}
+
+
+
+export default function OurWork(props: OurWorkProps) {
   return (
     <>
-      <section id={our_work.container} className="container column">
+      <section id={our_work.container} ref={props.refs} className="container column">
         <h1 id={our_work.title}>Nossos Trabalhos</h1>
         <div id={our_work.works_container} className="container column">
           <div id={our_work.work_item} className={"container column"}>
@@ -19,7 +26,6 @@ export default function OurWork() {
             />
           </div>
           <div id={our_work.work_item} className={"container column"}>
-          
             <Typography
               alignment="right"
               title="Liu Eco Tyre"

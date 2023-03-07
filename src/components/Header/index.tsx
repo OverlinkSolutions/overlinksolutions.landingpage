@@ -4,16 +4,17 @@ import { useMediaQuery } from "react-responsive";
 import logo from "../../images/logo3.webp";
 import header from "./header.module.sass";
 
-export default function Header() {
+type HeaderProps = {
+  handleHeaderClick: (refName: number) => void;
+};
+
+export default function Header(props: HeaderProps) {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [isClickTriggeredByEffect, setIsClickTriggeredByEffect] = React.useState(false);
   const buttonRef = React.useRef<HTMLButtonElement>(null);
 
   React.useEffect(() => {
     const interval = setInterval(() => {
       if (buttonRef.current) {
-        setIsClickTriggeredByEffect(true);
         buttonRef.current.click();
       }
     }, 3000);
@@ -21,12 +22,10 @@ export default function Header() {
     return () => clearInterval(interval);
   }, []);
 
-  const handleClick = () => {
-    if (isClickTriggeredByEffect) {
-      setIsClickTriggeredByEffect(false);
-      return;
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent> | React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    if (e.isTrusted) {
+      window.location.href = "https://wa.me/5579999999999";
     }
-    // window.open("https://wa.me/5511988888888", "_blank")
   };
 
   return (
@@ -36,15 +35,22 @@ export default function Header() {
       </div>
       {isMobile ? (
         <nav id={header.btn_row} className="container row">
-          <Button type="primary" ref={buttonRef}>
+          <Button type="primary" onClick={(e) => handleClick(e)} ref={buttonRef}>
             Contato
           </Button>
         </nav>
       ) : (
         <nav id={header.btn_row} className="container row">
-          <Button type="text">Quem somos</Button>
-          <Button type="text">Nosso trabalho</Button>
-          <Button type="primary" onClick={handleClick} ref={buttonRef}>
+          <Button type="text" onClick={() => props.handleHeaderClick(0)}>
+            Quem somos
+          </Button>
+          <Button type="text" onClick={() => props.handleHeaderClick(2)}>
+            Nossos serviços
+          </Button>
+          <Button type="text" onClick={() => props.handleHeaderClick(1)}>
+            Nossos trabalhos
+          </Button>
+          <Button type="primary" onClick={(e) => handleClick(e)} ref={buttonRef}>
             Contato
           </Button>
         </nav>
