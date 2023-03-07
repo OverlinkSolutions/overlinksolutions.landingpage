@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7f847f5.css",
+    "main.css": "/static/css/main.afc02edc.css",
     "main.js": "/static/js/main.42f1c177.js",
     "static/media/icon_quemSomos.png": "/static/media/icon_quemSomos.1f53edcac2dd8ca411a5.png",
     "static/media/work_liuEcoTyre.png": "/static/media/work_liuEcoTyre.f5b21d36741292ba450d.png",
@@ -16,11 +16,11 @@
     "static/media/site.webp": "/static/media/site.b81780fd399aa601eea7.webp",
     "static/media/server.webp": "/static/media/server.ace389514dfda368718a.webp",
     "index.html": "/index.html",
-    "main.a7f847f5.css.map": "/static/css/main.a7f847f5.css.map",
+    "main.afc02edc.css.map": "/static/css/main.afc02edc.css.map",
     "main.42f1c177.js.map": "/static/js/main.42f1c177.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7f847f5.css",
+    "static/css/main.afc02edc.css",
     "static/js/main.42f1c177.js"
   ]
 }
