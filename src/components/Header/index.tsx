@@ -1,3 +1,4 @@
+import { WhatsAppOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 import * as React from "react";
 import { useMediaQuery } from "react-responsive";
@@ -22,9 +23,20 @@ export default function Header(props: HeaderProps) {
     return () => clearInterval(interval);
   }, []);
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent> | React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+  const handleClick = (
+    e:
+      | React.MouseEvent<HTMLAnchorElement, MouseEvent>
+      | React.MouseEvent<HTMLButtonElement, MouseEvent>
+  ) => {
     if (e.isTrusted) {
-      window.location.href = "https://wa.me/5579999999999";
+      let contactMessage =
+        "Olá, tenho interesse em construir um site para minha empresa.";
+      let encodedURI = encodeURI(contactMessage);
+      window.open(
+        "https://api.whatsapp.com/send?phone=557996369613" +
+          "&text=" +
+          encodedURI
+      );
     }
   };
 
@@ -35,7 +47,12 @@ export default function Header(props: HeaderProps) {
       </div>
       {isMobile ? (
         <nav id={header.btn_row} className="container row">
-          <Button type="primary" onClick={(e) => handleClick(e)} ref={buttonRef}>
+          <Button
+            type="primary"
+            onClick={(e) => handleClick(e)}
+            ref={buttonRef}
+          >
+            <WhatsAppOutlined />
             Contato
           </Button>
         </nav>
@@ -50,7 +67,12 @@ export default function Header(props: HeaderProps) {
           <Button type="text" onClick={() => props.handleHeaderClick(1)}>
             Nossos trabalhos
           </Button>
-          <Button type="primary" onClick={(e) => handleClick(e)} ref={buttonRef}>
+          <Button
+            type="primary"
+            onClick={(e) => handleClick(e)}
+            ref={buttonRef}
+          >
+            <WhatsAppOutlined />
             Contato
           </Button>
         </nav>

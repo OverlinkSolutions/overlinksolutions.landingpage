@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b565733.css",
-    "main.js": "/static/js/main.0e8a4683.js",
+    "main.css": "/static/css/main.a7f847f5.css",
+    "main.js": "/static/js/main.42f1c177.js",
     "static/media/icon_quemSomos.png": "/static/media/icon_quemSomos.1f53edcac2dd8ca411a5.png",
     "static/media/work_liuEcoTyre.png": "/static/media/work_liuEcoTyre.f5b21d36741292ba450d.png",
     "static/media/work_fazendaModelo.png": "/static/media/work_fazendaModelo.69da1631d2f6c3b03666.png",
@@ -12,12 +12,15 @@
     "static/media/icon_quebreBarreiras.png": "/static/media/icon_quebreBarreiras.e7d48b23164f1b2719e2.png",
     "static/media/logo3.png": "/static/media/logo3.f7e90e22a71698723352.png",
     "static/media/logo3.webp": "/static/media/logo3.a175b14ae22ac669053d.webp",
+    "static/media/www.webp": "/static/media/www.7fc79187bf6da372eb9e.webp",
+    "static/media/site.webp": "/static/media/site.b81780fd399aa601eea7.webp",
+    "static/media/server.webp": "/static/media/server.ace389514dfda368718a.webp",
     "index.html": "/index.html",
-    "main.1b565733.css.map": "/static/css/main.1b565733.css.map",
-    "main.0e8a4683.js.map": "/static/js/main.0e8a4683.js.map"
+    "main.a7f847f5.css.map": "/static/css/main.a7f847f5.css.map",
+    "main.42f1c177.js.map": "/static/js/main.42f1c177.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b565733.css",
-    "static/js/main.0e8a4683.js"
+    "static/css/main.a7f847f5.css",
+    "static/js/main.42f1c177.js"
   ]
 }

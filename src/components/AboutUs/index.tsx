@@ -6,12 +6,14 @@ import img_aumenteVisibilidade from "../../images/icon_visibilidade.png";
 import img_quemSomos from "../../images/icon_quemSomos.png";
 
 import about_us from "./about_us.module.sass";
+import { useMediaQuery } from "react-responsive";
 
 type AboutUsProps = {
   refs: React.RefObject<HTMLDivElement>;
 }
 
 export default function AboutUs(props: AboutUsProps) {
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   return (
     <>
       <section id={about_us.container_features} className="container column">
@@ -50,7 +52,7 @@ export default function AboutUs(props: AboutUsProps) {
             alt="Alcance um novo público"
           />
           <Typography
-            alignment="left"
+            alignment={isMobile ? "center": "left"}
             title="Quem somos"
             description="A Overlink Solutions é uma empresa de desenvolvimento de websites modernos, com o objetivo de criar um novo ambiente para seu comércio, alcançando novos clientes, sem barreiras."
           />

@@ -1,8 +1,8 @@
 import * as React from "react";
 import Typography from "../Typography";
-import img_novoPublico from "../../images/icon_publico.png";
-import img_quebreBarreiras from "../../images/icon_quebreBarreiras.png";
-import img_aumenteVisibilidade from "../../images/icon_visibilidade.png";
+import img_site from "../../images/site.webp";
+import img_apps from "../../images/www.webp";
+import img_server from "../../images/server.webp";
 
 import our_services from "./our_services.module.sass";
 
@@ -18,7 +18,7 @@ export default function OurServices(props: OurServicesProps) {
         <h1 id={our_services.title}>Nossos Serviços</h1>
         <div id={our_services.container} className="container autowrap">
           <div id={our_services.item} className={"container column"}>
-            <img src={img_novoPublico} alt="Desenvolvimento de sites" />
+            <img src={img_site} alt="Desenvolvimento de sites" />
             <Typography
               alignment="center"
               title="Desenvolvimento de sites"
@@ -26,15 +26,15 @@ export default function OurServices(props: OurServicesProps) {
             />
           </div>
           <div id={our_services.item} className={"container column"}>
-            <img src={img_quebreBarreiras} alt="Hospedagem e domínio" />
+            <img src={img_server} alt="Hospedagem e domínio" />
             <Typography
               alignment="center"
-              title="Hospedagem e domínio"
+              title="Domínio e hospedagem "
               description="Também registramos seu domínio e lidamos com a hospedagem, para que você não tenha que se preocupar com isso."
             />
           </div>
           <div id={our_services.item} className={"container column"}>
-            <img src={img_aumenteVisibilidade} alt="Desenvolvimento de apps" />
+            <img src={img_apps} alt="Desenvolvimento de apps" />
             <Typography
               alignment="center"
               title="Desenvolvimento de apps"
