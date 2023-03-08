@@ -6,13 +6,23 @@
     gap: 20px
     flex-wrap: nowrap
     width: 100%
-    
 #item
+    max-width: 300px
+    margin: 20px
+    padding: 30px 10px 0
+
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3)
+    transition: all 0.2s ease-in-out
+    &:hover
+        transform: scale(1.01)
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.5)
+        cursor: pointer
     #overlink
         width: 50%
     img
-        width: 180px
+        width: 120px
         object-fit: cover
+    
 #title 
     color: white
     padding: 0
@@ -27,6 +37,6 @@
         #container
             width: 100%
             flex-wrap: wrap
+            align-items: stretch
             #item
                 width: 30%
-                height: 100%
