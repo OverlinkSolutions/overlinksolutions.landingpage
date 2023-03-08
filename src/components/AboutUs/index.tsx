@@ -53,6 +53,7 @@ export default function AboutUs(props: AboutUsProps) {
           />
           <Typography
             alignment={isMobile ? "center": "left"}
+            fontSize={isMobile ? "1.5rem" : "2.5rem"}
             title="Quem somos"
             description="A Overlink Solutions é uma empresa de desenvolvimento de websites modernos, com o objetivo de criar um novo ambiente para seu comércio, alcançando novos clientes, sem barreiras."
           />
