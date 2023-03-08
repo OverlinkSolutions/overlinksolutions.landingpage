@@ -10,12 +10,14 @@ type TypographyProps =
       title: string;
       description: string;
       fontSize?: string;
+      link?: string;
     }
   | {
       alignment: CSSAlignment | undefined;
       title: string;
       description: string;
       fontSize?: string;
+      link?: string;
     };
 
 export default function Typography(props: TypographyProps) {
@@ -34,7 +36,15 @@ export default function Typography(props: TypographyProps) {
   return (
     <section id={typography.container} className="container column">
       <div id={typography.text} className="container column">
-        <h1 style={titleAlignment ? (props.fontSize ? { textAlign: titleAlignment, fontSize: props.fontSize} :{ textAlign: titleAlignment }) : {}}>
+        <h1
+          style={
+            titleAlignment
+              ? props.fontSize
+                ? { textAlign: titleAlignment, fontSize: props.fontSize }
+                : { textAlign: titleAlignment }
+              : {}
+          }
+        >
           {props.title}
         </h1>
         <p
