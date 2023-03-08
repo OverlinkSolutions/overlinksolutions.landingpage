@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.afc02edc.css",
-    "main.js": "/static/js/main.42f1c177.js",
-    "static/media/icon_quemSomos.png": "/static/media/icon_quemSomos.1f53edcac2dd8ca411a5.png",
-    "static/media/work_liuEcoTyre.png": "/static/media/work_liuEcoTyre.f5b21d36741292ba450d.png",
-    "static/media/work_fazendaModelo.png": "/static/media/work_fazendaModelo.69da1631d2f6c3b03666.png",
+    "main.css": "/static/css/main.eab75a38.css",
+    "main.js": "/static/js/main.27f2706e.js",
+    "static/media/icon_quemSomos.webp": "/static/media/icon_quemSomos.9d0e6cd9b3bc65107473.webp",
     "static/media/icon_formaDeConexao.webp": "/static/media/icon_formaDeConexao.5468b6370f592a42da07.webp",
+    "static/media/work_liuEcoTyre.webp": "/static/media/work_liuEcoTyre.972ee8903005cee7cb98.webp",
+    "static/media/work_fazendaModelo.webp": "/static/media/work_fazendaModelo.630bde2382a034dfb16f.webp",
     "static/media/icon_visibilidade.png": "/static/media/icon_visibilidade.abe1623c04006538d524.png",
     "static/media/icon_fundo.png": "/static/media/icon_fundo.4b2f73b967e24b12f86b.png",
     "static/media/icon_publico.png": "/static/media/icon_publico.95e3ca110b5896fb0836.png",
@@ -16,11 +16,11 @@
     "static/media/site.webp": "/static/media/site.b81780fd399aa601eea7.webp",
     "static/media/server.webp": "/static/media/server.ace389514dfda368718a.webp",
     "index.html": "/index.html",
-    "main.afc02edc.css.map": "/static/css/main.afc02edc.css.map",
-    "main.42f1c177.js.map": "/static/js/main.42f1c177.js.map"
+    "main.eab75a38.css.map": "/static/css/main.eab75a38.css.map",
+    "main.27f2706e.js.map": "/static/js/main.27f2706e.js.map"
   },
   "entrypoints": [
-    "static/css/main.afc02edc.css",
-    "static/js/main.42f1c177.js"
+    "static/css/main.eab75a38.css",
+    "static/js/main.27f2706e.js"
   ]
 }

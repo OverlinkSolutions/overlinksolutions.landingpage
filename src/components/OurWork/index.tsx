@@ -1,8 +1,8 @@
 import * as React from "react";
 import Typography from "../Typography";
 import our_work from "./our_work.module.sass";
-import work_fazendaModelo from "../../images/work_fazendaModelo.png";
-import work_liuEcoTyre from "../../images/work_liuEcoTyre.png";
+import work_fazendaModelo from "../../images/work_fazendaModelo.webp";
+import work_liuEcoTyre from "../../images/work_liuEcoTyre.webp";
 import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
 

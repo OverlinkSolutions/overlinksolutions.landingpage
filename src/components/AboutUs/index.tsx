@@ -3,7 +3,7 @@ import Typography from "../Typography";
 import img_novoPublico from "../../images/icon_publico.png";
 import img_quebreBarreiras from "../../images/icon_quebreBarreiras.png";
 import img_aumenteVisibilidade from "../../images/icon_visibilidade.png";
-import img_quemSomos from "../../images/icon_quemSomos.png";
+import img_quemSomos from "../../images/icon_quemSomos.webp";
 
 import about_us from "./about_us.module.sass";
 import { useMediaQuery } from "react-responsive";
@@ -38,7 +38,7 @@ export default function AboutUs(props: AboutUsProps) {
             <img src={img_aumenteVisibilidade} alt="Alcance um novo público" />
             <Typography
               alignment="center"
-              title="Aumente suas visibilidade"
+              title="Aumente sua visibilidade"
               description="Seu cliente pode conhecer seus produtos ou serviços de qualquer lugar, além de servir de cartão de visita para seu negócio."
             />
           </div>

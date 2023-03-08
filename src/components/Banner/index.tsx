@@ -8,7 +8,7 @@ export default function Banner() {
   return (
     <section id={banner.container} className="container autowrap">
       <div id={banner.text} className="container column">
-        <div className="container column">
+        <div id={banner.large} className="container column">
           {
             !isMobile &&
             <div id={banner.logo_overlink} className="container">
