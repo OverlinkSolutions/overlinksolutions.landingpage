@@ -1,10 +1,31 @@
+import * as React from 'react';
 import banner from "./banner.module.sass";
 import bannerImg from "../../images/icon_formaDeConexao.webp";
 import favicon from "../../images/favicon.png";
 import { useMediaQuery } from "react-responsive";
+import './arrows.sass'
+import useWindowDimensions from '../../utils/useWindowDimensions';
 
 export default function Banner() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+  const [scrollPosition, setScrollPosition] = React.useState(0);
+  const handleScroll = () => {
+      const position = window.pageYOffset;
+      setScrollPosition(position);
+  };
+  
+  React.useEffect(() => {
+      window.addEventListener('scroll', handleScroll, { passive: true });
+  
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  }, []);
+
+  React.useEffect(() => {
+    console.log(scrollPosition);
+  }, [scrollPosition]);
+
   return (
     <section id={banner.container} className="container autowrap">
       <div id={banner.text} className="container column">
@@ -19,6 +40,13 @@ export default function Banner() {
           <h1>Uma nova forma de</h1>
           <h1 id={banner.conexao}>conexão</h1>
           <h1>com seus clientes</h1>
+        </div>
+        <div>
+        <div className={!isMobile ? (scrollPosition > 100 ? "arrow arrow_disabled" : "arrow"): "hide"}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         </div>
         <div id={banner.small} className="container column">
           <span>O nosso negócio</span>

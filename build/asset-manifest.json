@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.af3313fe.css",
-    "main.js": "/static/js/main.a322c7e0.js",
+    "main.css": "/static/css/main.b35c010b.css",
+    "main.js": "/static/js/main.af2a4f02.js",
     "static/media/icon_quemSomos.webp": "/static/media/icon_quemSomos.9d0e6cd9b3bc65107473.webp",
     "static/media/icon_formaDeConexao.webp": "/static/media/icon_formaDeConexao.5468b6370f592a42da07.webp",
     "static/media/work_liuEcoTyre.webp": "/static/media/work_liuEcoTyre.972ee8903005cee7cb98.webp",
@@ -16,11 +16,11 @@
     "static/media/site.webp": "/static/media/site.b81780fd399aa601eea7.webp",
     "static/media/server.webp": "/static/media/server.ace389514dfda368718a.webp",
     "index.html": "/index.html",
-    "main.af3313fe.css.map": "/static/css/main.af3313fe.css.map",
-    "main.a322c7e0.js.map": "/static/js/main.a322c7e0.js.map"
+    "main.b35c010b.css.map": "/static/css/main.b35c010b.css.map",
+    "main.af2a4f02.js.map": "/static/js/main.af2a4f02.js.map"
   },
   "entrypoints": [
-    "static/css/main.af3313fe.css",
-    "static/js/main.a322c7e0.js"
+    "static/css/main.b35c010b.css",
+    "static/js/main.af2a4f02.js"
   ]
 }
