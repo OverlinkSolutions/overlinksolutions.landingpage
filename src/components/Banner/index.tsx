@@ -8,6 +8,7 @@ import useWindowDimensions from "../../utils/useWindowDimensions";
 
 export default function Banner() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+  const isTinyMobile = useMediaQuery({ query: "(max-width: 375px)" });
   const [scrollPosition, setScrollPosition] = React.useState(0);
   const handleScroll = () => {
     const position = window.pageYOffset;
@@ -42,7 +43,7 @@ export default function Banner() {
         </div>
         <div>
           <div
-            className={scrollPosition > 100 ? "arrow arrow_disabled" : "arrow"}
+            className={""+(scrollPosition > 100 ? "arrow arrow_disabled" : "arrow")+(isTinyMobile ? " arrow_tiny" : "")}
           >
             <span></span>
             <span></span>
