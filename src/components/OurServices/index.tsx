@@ -22,7 +22,7 @@ export default function OurServices(props: OurServicesProps) {
             <Typography
               alignment="center"
               title="Desenvolvimento de sites"
-              description="Criamos seus site de forma personalizada para o seu negócio, com um design adaptável para celular e computador."
+              description="Criamos seus sites de forma personalizada para o seu negócio, com um design adaptável para celular e computador."
             />
           </div>
           <div id={our_services.item} className={"container column"}>
