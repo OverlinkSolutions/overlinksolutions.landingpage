@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b00683b7.css",
-    "main.js": "/static/js/main.9c5506b1.js",
+    "main.js": "/static/js/main.d78e7197.js",
     "static/media/icon_quemSomos.webp": "/static/media/icon_quemSomos.9d0e6cd9b3bc65107473.webp",
     "static/media/icon_formaDeConexao.webp": "/static/media/icon_formaDeConexao.5468b6370f592a42da07.webp",
     "static/media/work_liuEcoTyre.webp": "/static/media/work_liuEcoTyre.972ee8903005cee7cb98.webp",
@@ -17,10 +17,10 @@
     "static/media/server.webp": "/static/media/server.ace389514dfda368718a.webp",
     "index.html": "/index.html",
     "main.b00683b7.css.map": "/static/css/main.b00683b7.css.map",
-    "main.9c5506b1.js.map": "/static/js/main.9c5506b1.js.map"
+    "main.d78e7197.js.map": "/static/js/main.d78e7197.js.map"
   },
   "entrypoints": [
     "static/css/main.b00683b7.css",
-    "static/js/main.9c5506b1.js"
+    "static/js/main.d78e7197.js"
   ]
 }
