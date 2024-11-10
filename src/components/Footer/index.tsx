@@ -22,7 +22,7 @@ export default function Footer() {
             Instagram: @overlinksolutions
         </p>
         <p>
-            Whatsapp: (79) 99636-9613
+            Whatsapp: (79) 99605-9338
         </p>
       </div>
       </footer>
