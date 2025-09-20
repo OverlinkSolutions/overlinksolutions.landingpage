@@ -33,7 +33,7 @@ export default function Header(props: HeaderProps) {
         "Olá, tenho interesse em construir um site para minha empresa.";
       let encodedURI = encodeURI(contactMessage);
       window.open(
-        "https://api.whatsapp.com/send?phone=557996369613" +
+        "https://api.whatsapp.com/send?phone=5579996059338" +
           "&text=" +
           encodedURI
       );
